@@ -2,10 +2,11 @@
 import React, {useEffect, useRef} from 'react'
 import gsap from 'gsap'
 import Bounded from './Bounded'
+import Shapes from './Shapes'
 
 const Hero = () => {
-    const firstname = "Andy"
-    const lastname = "Bryant"
+    const firstname = "Sreynin"
+    const lastname = "Pon"
 
     const component = useRef(null)
     useEffect(() =>{
@@ -57,6 +58,7 @@ const Hero = () => {
   return (
     <Bounded ref={component}>
         <div className='grid min-h-[70vh] grid-cols-1 md:grid-cols-2 items-center'>
+            <Shapes/>
             <div className='col-start-1 md:row-start-1'>
                 <h1 className='mb-8 text-[10rem] font-extrabold leading-none tracking-tighter'>
                     <span className='block text-slate-300'>
@@ -69,11 +71,11 @@ const Hero = () => {
                             ))
                         }
                     </span>
-                    <span className='block text-slate-300'>
+                    <span className='block'>
                         {
                             lastname.split('').map((letter, index) => (
                                 <span key={index} 
-                                    className={`name-animation inline-block opacity-0 text-slate-600`}>
+                                    className={`name-animation inline-block opacity-0 text-slate-500`}>
                                     {letter}
                                 </span>
                             ))
