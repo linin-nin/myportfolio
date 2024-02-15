@@ -16,7 +16,11 @@ const Header = () => {
                         About
                     </Link>
                 </li>
-                <li></li>
+                <li>
+                    <Link href="/blog" aria-label='Home page'>
+                        Blog
+                    </Link>
+                </li>
             </ul>
         </nav>
     </div>

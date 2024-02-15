@@ -1,8 +1,8 @@
 "use client"
 
 import React, { useEffect, useRef } from 'react'
-import Heading from './Heading'
-import Bounded from './Bounded'
+import Heading from '../Heading'
+import Bounded from '../Bounded'
 
 import { CircleDot } from 'lucide-react'
 import { gsap } from 'gsap'

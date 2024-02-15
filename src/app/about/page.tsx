@@ -1,9 +1,9 @@
 import React from 'react'
 import Bounded from '@/components/Bounded'
 import Heading from '@/components/Heading'
-import Button from '@/components/Button'
-import TechList from '@/components/TechList'
-import Avatar from '@/components/Avatar'
+import Button from '@/components/biography/Button'
+import TechList from '@/components/biography/TechList'
+import Avatar from '@/components/biography/Avatar'
 
 const Page = () => {
   return (
