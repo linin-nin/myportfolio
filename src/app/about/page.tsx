@@ -2,11 +2,13 @@ import React from 'react'
 import Bounded from '@/components/Bounded'
 import Heading from '@/components/Heading'
 import Button from '@/components/Button'
+import TechList from '@/components/TechList'
 import Avatar from '@/components/Avatar'
 
 const Page = () => {
   return (
-    <Bounded>
+    <>
+      <Bounded>
         <div className='grid1 gap-x-8 gap-y-6 md:grid-cols-2 grid-cols-1'>
             <Heading as='h1' size='xl' className='col-start-1'>
                 About Sreynin
@@ -23,7 +25,9 @@ const Page = () => {
             <Button linkField='/' label='Resume'/>
             <Avatar image='/pic.jpg'/>
         </div>
-    </Bounded>
+      </Bounded>
+      <TechList/>
+    </>
   )
 }
 
