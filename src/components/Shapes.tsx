@@ -21,7 +21,7 @@ const Geomatries = () => {
     {
       position: [-1.4, 2, -4],
       r: 0.6,
-      geometry: new THREE.DodecahedronGeometry(1.5)
+      geometry: new THREE.DodecahedronGeometry(2.5)
     },
     {
       position: [-0.8, -0.75, 5],
@@ -44,7 +44,7 @@ const Geomatries = () => {
     new THREE.MeshStandardMaterial({color: 0x1abc9c, roughness:0.1}),
     new THREE.MeshStandardMaterial({color: 0x2ece71, roughness:0.1}),
     new THREE.MeshStandardMaterial({color: 0x2980b9, roughness:0, metalness:0.5}),
-    new THREE.MeshStandardMaterial({color: 0x2c3e50, roughness:0.1, metalness:0.5}),
+    new THREE.MeshStandardMaterial({color: 0x2c5e50, roughness:0.1, metalness:0.5}),
   ]
 
   const soundEffect = [
@@ -115,7 +115,7 @@ const Geomatry: React.FC<GeometryProps> = ({r, position, geometry, material, sou
             x: 0,
             y: 0,
             z: 0,
-            duration: 1,
+            duration: 2,
             ease: "elastic.out(1, 0.3)",
             delay: 0.3
           });
