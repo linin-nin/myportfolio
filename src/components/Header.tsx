@@ -13,14 +13,21 @@ const Header = () => {
             </div>
             <ul className='flex gap-6 items-center justify-center'>
                 <li>
-                    <Button label='Anout' linkField='/about' showIcon={false} className='border-none'/>
+                    <Button label='About' linkField='/about' showIcon={false} className='border-none'/>
                 </li>
-                <li className=' text-slate-500'>/</li>
+                <li>
+                    <span
+                        className="text-4xl font-thin leading-[0] text-slate-400"
+                        aria-hidden="true"
+                      >
+                        /
+                    </span>
+                </li>
                 <li>
                     <Button label='Projects' linkField='/project' showIcon={false} className='border-none'/>
                 </li>
                 <li>
-                    <Button label='Contact' linkField='/' className=''/>
+                    <Button label='Contact' linkField='https://t.me/ponsreynin'/>
                 </li>
             </ul>
         </nav>

@@ -4,29 +4,32 @@ import Heading from '@/components/Heading'
 import Button from '@/components/biography/Button'
 import TechList from '@/components/biography/TechList'
 import Avatar from '@/components/biography/Avatar'
+import Education from '@/components/biography/Education'
 
 const Page = () => {
   return (
     <>
       <Bounded>
-        <div className='grid1 gap-x-8 gap-y-6 md:grid-cols-2 grid-cols-1'>
-            <Heading as='h1' size='xl' className='col-start-1'>
-                About Sreynin
-            </Heading>
-            <div className="prose prose-xl prose-slate prose-invert col-start-1">
-            Pon Sreynin is a visionary Web 3D Developer, pioneering the intersection of technology and creativity in the digital
-             realm. With a passion for pushing the
-             boundaries of immersive web experiences, Pon has established themselves as a leading figure in the dynamic field of 3D development.
-             Born with an innate curiosity for technology, Pon embarked on their journey into the digital world at an early age. With a solid
-              foundation in computer science and a keen eye for design, they quickly gravitated towards the realm of 3D development. Harnessing
-               the power of emerging web technologies, Pon began experimenting with creating captivating, interactive 3D experiences that transcend 
-               traditional boundaries.
+        <div className='grid grid-cols-2 gap-80'>
+            <div className=' '>
+              <Heading as='h1' size='xl' className=''>
+                  About Sreynin
+              </Heading>
+              <div className="prose prose-xl prose-slate prose-invert">
+              My name is Sreynin Pon. I am a person who have good
+              communication with other people, love challenging, enjoy pushing
+              myself to overcome obstacles, and approach problems from different
+              angles allows me to find effective solutions. I am seeking a position
+              that is related to my educational background and skills. I believe it is
+              valuable occupation and I want to challenge what I have learned.
+              </div>
+              <Button linkField='https://t.me/ponsreynin' label='Contact'/>
             </div>
-            <Button linkField='/' label='Resume'/>
             <Avatar image='/pic.jpg'/>
         </div>
       </Bounded>
       <TechList/>
+      <Education/>
     </>
   )
 }
