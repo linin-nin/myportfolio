@@ -4,7 +4,7 @@ import Heading from '@/components/Heading'
 import Button from '@/components/biography/Button'
 import TechList from '@/components/biography/TechList'
 import Avatar from '@/components/biography/Avatar'
-import Education from '@/components/biography/Education'
+import Education from '@/components/biography/Bio-template'
 
 const Page = () => {
   return (
