@@ -62,12 +62,12 @@ const Footer = () => {
             >
               <Linkedin />
             </Link>
-            <Link
+            {/* <Link
               href='https://www.facebook.com/profile.php?id=100054628981903'
               className="p-2 text-2xl text-slate-300 transition-all duration-150 hover:scale-125 hover:text-yellow-400"
             >
               <Facebook />
-            </Link>
+            </Link> */}
             <Link
               href='https://github.com/linin-nin'
               className="p-2 text-2xl text-slate-300 transition-all duration-150 hover:scale-125 hover:text-yellow-400"

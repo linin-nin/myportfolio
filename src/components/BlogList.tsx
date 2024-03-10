@@ -16,7 +16,7 @@ const Blog = () => {
   const revealRef = useRef(null)
   const itemsRef = useRef<Array<HTMLLIElement | null>>(null)
   const [currectItem, setcurrectItem] = useState<null | number>(null)
-  const contentimage = [...data, ...data, ...data].map((item) => item.image.original)
+  const contentimage = data.map((item) => item.image.original)
 
   const onmouseEnter = (index:number) => {
     setcurrectItem(index)
@@ -88,7 +88,7 @@ const Blog = () => {
     <div ref={component}>
       <ul onMouseLeave={onmouseLeave} className='grid border-b border-b-slate-100'>
         {
-          [...data, ...data, ...data].map((item, index) => (
+          data.map((item, index) => (
               <li 
                 ref={(item) => {
                   if(itemsRef.current) {

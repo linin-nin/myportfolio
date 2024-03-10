@@ -13,18 +13,4 @@ export const data = [
           "/Stics _ Halo Lab.jpg"
       },
     },
-    {
-      id: "1",
-      title: "Anime Lover",
-      tag: [
-        'Javascript',
-        'Animation',
-        'Anime',
-        'Manga',
-      ],
-      image: {
-        original:
-          "/Agility — Ricard Jorge.jpg",
-      },
-    },
   ];

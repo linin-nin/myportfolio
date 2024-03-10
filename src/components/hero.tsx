@@ -1,7 +1,7 @@
 "use client"
 import React, {useEffect, useRef} from 'react'
 import gsap from 'gsap'
-import Bounded from '../Bounded'
+import Bounded from './Bounded'
 import Shapes from './Shapes'
 
 const Hero = () => {

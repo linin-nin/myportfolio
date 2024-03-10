@@ -2,7 +2,7 @@
 import React from 'react'
 import Bounded from '@/components/Bounded'
 import Heading from '@/components/Heading'
-import Blog from '@/components/contant/BlogList'
+import Blog from '@/components/BlogList'
 
 const Page = () => {
   return (
