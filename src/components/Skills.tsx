@@ -1,14 +1,13 @@
 import React from 'react'
-import Bounded from './Bounded'
 import Heading from './Heading'
 
 const Skills = () => {
   return (
-    <Bounded>
-        <Heading as="h1" size='xl'>
+    <div className="grid gap-x-8 my-20 bg-red-500 gap-y-6 md:grid-cols-[2fr, 1fr]'">
+        <Heading as="h1" size='xl' className='col-start-1'>
             Skills
         </Heading>
-        <div className="ml-16 pt-16 w-[740px]">
+        <div className="ml-5 md:ml-12 col-start-1 ">
             <Heading as="h1" size='sm' className='mb-2'>
               HTML - CSS
             </Heading>
@@ -16,16 +15,16 @@ const Skills = () => {
               Typescript - JavaScript
             </Heading>
             <Heading as="h1" size='sm' className='mb-2'>
-              Django - Python
+              Django - MongoDB - SQL
             </Heading>
             <Heading as="h1" size='sm' className='mb-2'>
-              React.JS - Vue.Js - Next.JS
+              React.JS - Next.JS
             </Heading>
             <Heading as="h1" size='sm' className='mb-2'>
               Node.JS
             </Heading>
         </div>
-    </Bounded>
+    </div>
   )
 }
 

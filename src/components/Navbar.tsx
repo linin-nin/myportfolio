@@ -94,18 +94,6 @@ const Navbar = () => {
   )
 }
 
-// function NameLogo({ name }: { name: KeyTextField }) {
-//     return (
-//       <Link
-//         href="/"
-//         aria-label="Home page"
-//         className="text-xl font-extrabold tracking-tighter text-slate-900"
-//       >
-//         {name}
-//       </Link>
-//     );
-//   }
-
   function DesktopMenu() {
     return (
       <div className="relative z-50 hidden flex-row items-center gap-1 bg-transparent py-0 md:flex">

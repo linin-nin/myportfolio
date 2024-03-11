@@ -62,9 +62,9 @@ const Avatar = ({image, className}:AvatarProps) => {
     }, [])
 
   return (
-    <div ref={component} className={clsx("relative row-start-1 max-w-sm md:col-start-2 md:row-end-3 h-[400px]",className)}>
+    <div ref={component} className={clsx("relative h-full w-full", className)}>
         <div className='avatar aspect-square overflow-hidden rounded-3xl border-2 border-slate-700 opacity-0'>
-          <Image src={image} alt='cover' fill className='w-full h-full object-cover'/>
+          <Image src={image} alt='cover' fill className='avatar-image w-full h-full object-cover'/>
           <div className='highlight absolute inset-0 hidden  w-full scale-110 bg-gradient-to-tr from-transparent via-white to-transparent opacity-0 md:block'></div>
         </div>
     </div>

@@ -56,11 +56,11 @@ const Hero = () => {
 
 
   return (
-    <Bounded ref={component}>
-        <div className='grid min-h-[70vh] grid-cols-1 md:grid-cols-2 items-center'>
+    // <Bounded ref={component}>
+        <div ref={component} className='grid min-h-[70vh] grid-cols-1 md:grid-cols-2 items-center'>
             <Shapes/>
             <div className='col-start-1 md:row-start-1'>
-                <h1 className='mb-8 text-[10rem] font-extrabold leading-none tracking-tighter'>
+                <h1 className='mb-8 text-clamp font-extrabold leading-none tracking-tighter'>
                     <span className='block text-slate-300'>
                         {
                             firstname.split('').map((letter, index) => (
@@ -71,11 +71,11 @@ const Hero = () => {
                             ))
                         }
                     </span>
-                    <span className='block'>
+                    <span className='-mt-[0.2em] block text-slate-500'>
                         {
                             lastname.split('').map((letter, index) => (
                                 <span key={index} 
-                                    className={`name-animation inline-block opacity-0 text-slate-500`}>
+                                    className={`name-animation inline-block opacity-0`}>
                                     {letter}
                                 </span>
                             ))
@@ -86,7 +86,7 @@ const Hero = () => {
                  text-2xl font-bold uppercase translate-[.2em] text-transparent opacity-0 md:text-4xl job-title'>Creative developer</span>
             </div>
         </div>
-    </Bounded>
+    // </Bounded>
   )
 }
 
