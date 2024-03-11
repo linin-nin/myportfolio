@@ -3,8 +3,8 @@ import Heading from './Heading'
 
 const Skills = () => {
   return (
-    <div className="grid gap-x-8 my-20 bg-red-500 gap-y-6 md:grid-cols-[2fr, 1fr]'">
-        <Heading as="h1" size='xl' className='col-start-1'>
+    <div className="grid gap-x-8 md:my-20 my-10 gap-y-6 md:grid-cols-[2fr, 1fr]'">
+        <Heading as="h1" size='lg' className='col-start-1'>
             Skills
         </Heading>
         <div className="ml-5 md:ml-12 col-start-1 ">

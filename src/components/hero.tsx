@@ -1,7 +1,6 @@
 "use client"
 import React, {useEffect, useRef} from 'react'
 import gsap from 'gsap'
-import Bounded from './Bounded'
 import Shapes from './Shapes'
 
 const Hero = () => {
@@ -56,8 +55,7 @@ const Hero = () => {
 
 
   return (
-    // <Bounded ref={component}>
-        <div ref={component} className='grid min-h-[70vh] grid-cols-1 md:grid-cols-2 items-center'>
+        <div ref={component} className='grid min-h-[60vh] grid-cols-1 md:grid-cols-2 items-center'>
             <Shapes/>
             <div className='col-start-1 md:row-start-1'>
                 <h1 className='mb-8 text-clamp font-extrabold leading-none tracking-tighter'>
@@ -86,7 +84,6 @@ const Hero = () => {
                  text-2xl font-bold uppercase translate-[.2em] text-transparent opacity-0 md:text-4xl job-title'>Creative developer</span>
             </div>
         </div>
-    // </Bounded>
   )
 }
 

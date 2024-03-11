@@ -15,3 +15,7 @@
 .text-clamp {
   font-size: clamp(3rem, 20vmin, 20rem);
 }
+
+.text-clamp-small {
+  font-size: clamp(2rem, 20vmin, 18rem);
+}
