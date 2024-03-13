@@ -89,7 +89,7 @@ const Navbar = () => {
 
             <li>
             <Button
-              linkField="/"
+              linkField="https://t.me/ponsreynin"
               label="Contact me"
               className="ml-3"
             />
