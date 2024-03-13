@@ -32,7 +32,7 @@ const Footer = () => {
                 className={clsx(
                   "group relative block overflow-hidden  rounded px-3 py-1 text-base font-bold text-slate-100 transition-colors duration-150 hover:hover:text-yellow-400",
                 )}
-                href='/about'
+                href='#about'
               >
                 About
               </Link>
@@ -48,7 +48,7 @@ const Footer = () => {
                 className={clsx(
                   "group relative block overflow-hidden  rounded px-3 py-1 text-base font-bold text-slate-100 transition-colors duration-150 hover:hover:text-yellow-400",
                 )}
-                href='/about'
+                href='#project'
               >
                 Projects
               </Link>
@@ -62,12 +62,12 @@ const Footer = () => {
             >
               <Linkedin />
             </Link>
-            {/* <Link
+            <Link
               href='https://www.facebook.com/profile.php?id=100054628981903'
               className="p-2 text-2xl text-slate-300 transition-all duration-150 hover:scale-125 hover:text-yellow-400"
             >
               <Facebook />
-            </Link> */}
+            </Link>
             <Link
               href='https://github.com/linin-nin'
               className="p-2 text-2xl text-slate-300 transition-all duration-150 hover:scale-125 hover:text-yellow-400"

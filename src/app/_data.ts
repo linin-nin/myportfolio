@@ -1,16 +1,17 @@
 export const data = [
     {
       id: "0",
-      title: "E-commerce website",
+      title: "E-commerce website (coming soon...)",
       tag: [
         'Typescript',
-        'Next',
+        'Next.js',
         'Payload',
+        "tailwind",
         'Mongodb',
       ],
       image: {
         original:
-          "/Stics _ Halo Lab.jpg"
+          "/digitalhobe.jpg"
       },
     },
     {
@@ -41,19 +42,19 @@ export const data = [
           "/startup-nation.jpg"
       },
     },
-    {
-      id: "3",
-      title: "Parallax scroll landing page",
-      tag: [
-        'Next',
-        'Typescript',
-        'Tailwind',
-        'Three.js',
-        'Framer motion',
-      ],
-      image: {
-        original:
-          "/parallax-scroll.jpg"
-      },
-    },
+    // {
+    //   id: "3",
+    //   title: "Parallax scroll landing page",
+    //   tag: [
+    //     'Next',
+    //     'Typescript',
+    //     'Tailwind',
+    //     'Three.js',
+    //     'Framer motion',
+    //   ],
+    //   image: {
+    //     original:
+    //       "/parallax-scroll.jpg"
+    //   },
+    // },
   ];

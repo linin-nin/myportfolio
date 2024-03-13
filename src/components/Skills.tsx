@@ -15,13 +15,22 @@ const Skills = () => {
               Typescript - JavaScript
             </Heading>
             <Heading as="h1" size='sm' className='mb-2'>
-              Django - MongoDB - SQL
+              MongoDB - MySQL
             </Heading>
             <Heading as="h1" size='sm' className='mb-2'>
               React.JS - Next.JS
             </Heading>
             <Heading as="h1" size='sm' className='mb-2'>
-              Node.JS
+              Node.JS - Exprees.JS
+            </Heading>
+            <Heading as="h1" size='sm' className='mb-2'>
+              Python - Django  
+            </Heading>
+            <Heading as="h1" size='sm' className='mb-2'>
+              Tailwind - Bootstrap  
+            </Heading>
+            <Heading as="h1" size='sm' className='mb-2'>
+              Git 
             </Heading>
         </div>
     </div>
