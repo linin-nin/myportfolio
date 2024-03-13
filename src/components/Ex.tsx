@@ -13,7 +13,7 @@ const Ex = () => {
         </Heading>
         <h2 className='text-slate-400 text-xl md:text-2xl mb-5 font-bold mt-2'>Aug 2023 - Mar 2024 / DreamsLab</h2>
         <p className="text-slate-300 prose prose-xl prose-slate prose-invert">
-             a frontend Developer, I proficient in Next.js, React.js, Tailwind, and Typescript. 
+             As a frontend Developer, I proficient in Next.js, React.js, Tailwind, and Typescript. 
              I can create animation by using libraries like framer motion and GSAP. Additionally, 
              I have experience working with handless CSM system like Directus for content management.
         </p>

@@ -124,7 +124,7 @@ const Navbar = () => {
             <Button label='Projects' linkField='#project' showIcon={false} className='border-none'/>
         </li>
         <li>
-            <Button label='Contact' linkField='https://t.me/ponsreynin'/>
+            <Button label='Contact me' linkField='https://t.me/ponsreynin'/>
         </li>
       </div>
     );

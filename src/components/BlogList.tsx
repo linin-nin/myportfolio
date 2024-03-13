@@ -16,6 +16,7 @@ const Blog = () => {
   const revealRef = useRef(null)
   const itemsRef = useRef<Array<HTMLLIElement | null>>(null)
   const [currectItem, setcurrectItem] = useState<null | number>(null)
+
   const contentimage = data.map((item) => item.image.original)
 
   const onmouseEnter = (index:number) => {
@@ -99,7 +100,7 @@ const Blog = () => {
                 className='list-item opacity-0f'
                 onMouseEnter={() => onmouseEnter(index)}
               >
-                <Link href="" className='flex flex-col justify-between border-t border-t-slate-100 py-10 text-slate-200 md:flex-row'>
+                <Link href={item.link} className='flex flex-col justify-between border-t border-t-slate-100 py-10 text-slate-200 md:flex-row'>
                   <div className='flex flex-col'>
                     <span className='text-3xl font-bold'>{item.title}</span>
                     <div className='flex gap-3 text-yellow-400 text-lg font-bold'>
@@ -116,11 +117,15 @@ const Blog = () => {
       </ul>
       {/* Hover animate */}
       <div ref={revealRef} className='hover-reveal pointer-events-none absolute left-0 top-0 -z-10 h-[320px] w-[220px] rounded-lg  bg-over bg-center opacity-0f transition-[background] duration-300'
-          // style={{
-          //   backgroundImage: currectItem !== null ? `url${contentimage[currectItem]}` : ""
-          // }}
+          style={{
+            backgroundImage: currectItem !== null ? `url(${contentimage[currectItem]})` : "",
+            // objectFit: "cover",
+            backgroundSize: "cover",
+            width: "220px",
+            height: "220px",
+          }}
       >
-        <Image src={currectItem !== null ? contentimage[currectItem] : ""} alt='image' width={220} height={320}/>
+        {/* <Image src={currectItem !== null ? contentimage[currectItem] : ""} alt='img' width={220} height={320} className="object-cover"/> */}
 
       </div>
     </div>

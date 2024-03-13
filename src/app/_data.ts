@@ -1,6 +1,7 @@
 export const data = [
     {
       id: "0",
+      link: "/",  
       title: "E-commerce website (coming soon...)",
       tag: [
         'Typescript',
@@ -16,6 +17,7 @@ export const data = [
     },
     {
       id: "1",
+      link: "https://brainwave-virid-tau.vercel.app/",
       title: "Modern Animation Landing page",
       tag: [
         'React',
@@ -29,6 +31,7 @@ export const data = [
     },
     {
       id: "2",
+      link: "https://startup-nation-web-pi.vercel.app/",
       title: "Startup Nation website",
       tag: [
         'Next',
